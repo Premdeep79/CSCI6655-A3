@@ -95,6 +95,7 @@ h1, h2, h3 {
 .about-content {
     display: grid;
     grid-template-columns: auto 1fr; 
+    grid-template-rows: auto; 
     align-items: center; 
     margin-top: 10px;
     text-align: center; 
@@ -115,6 +116,7 @@ h1, h2, h3 {
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    grid-template-rows: auto;
     gap: 20px;
     justify-items: center; 
     text-align: center;
